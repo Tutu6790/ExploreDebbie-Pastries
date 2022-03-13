@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box
+}
+
+h2 {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    text-decoration: underline;
+}
+h3 {
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    background-color:rgb(4, 4, 65);
+    padding: 10px;
+    max-width: 25%;
+    border-radius: 15px 40px 80px 15px;
+}
+/* cakes */
+
+.reduce {
+    height: 60%;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+
+/* media queries */
+@media screen and (max-width: 702px) {
+    h3 {
+        max-width:40%;
+        font-size: 20px;
+    }
+    .card p {
+        font-size: 15px;
+    }
+
+}
