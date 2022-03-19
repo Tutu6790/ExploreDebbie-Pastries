@@ -143,17 +143,45 @@ footer {
 .end {
     font-size: 20px;
 }
+.end ul li a {
+    font-size: 15px;
+}
 .h4 ul li a {
     font-size: 15px;
     
 }
+.end ul li {
+    list-style-type: none;
+}
 .h4 ul li {
     list-style-type: none;
 }
+h2 {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#subscribe {
+    padding: 15px;
+}
+
+#subscribe p {
+    font-size: 20px;
+}
+.card {
+    -webkit-box-shadow: -2px 2px 9px -1px rgb(0 0 0 / 40%);
+    -moz-box-shadow: -2px 2px 9px -1px rgb(0 0 0 / 40%);
+    box-shadow: -2px 2px 9px -1px rgb(0 0 0 / 40%);
+}
+
 /* media queries */
 @media screen and (max-width: 702px) {
     h1 {
         font-size: 25px;
+    }
+    h2, #about h2 {
+        font-size: 24px;
     }
     .dis {
         font-size: 15px;
@@ -170,7 +198,7 @@ footer {
         grid-gap: 20px;
        
     }
-    #about p {
+    #about p, #subscribe p {
         font-size: 15px;
     }
     .menu {
@@ -188,5 +216,8 @@ footer {
     }
     .card img {
      height: auto;
+    }
+    .big {
+        font-size: 12px;
     }
 }
