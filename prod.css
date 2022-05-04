@@ -27,7 +27,22 @@ h3 {
 .card-title {
     font-weight: bold;
 }
+#aboutsm {
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
 
+#aboutsm p {
+    font-size: 20px;
+    color: black;
+}
+
+#divide {
+    color: black;
+    height: 5px;
+}
 
 /* media queries */
 @media screen and (max-width: 702px) {
@@ -35,8 +50,15 @@ h3 {
         max-width:40%;
         font-size: 20px;
     }
+    #aboutsm {
+        grid-template-columns: 2fr;
+        grid-gap: 20px;
+    }
     .card p {
         font-size: 15px;
     }
 
+#aboutsm p {
+    font-size: 15px;
+}
 }
